@@ -1,0 +1,17 @@
+.div{
+    background-size: 100% 100%;
+    box-shadow: 20px 20px 10px gray;
+    animation: slider 10s linear infinite;
+    width: auto;
+    height: 400px;
+    /* background-color: blue; */
+}
+@keyframes slider{
+    0%{background-image: url(/3.webp);}
+    30%{background-image: url(/4.webp);}
+    80%{background-image: url(/5.webp);}
+    100%{background-image: url(/6.webp);}
+
+}
+
+/* https://www.youtube.com/shorts/9R8zeft-2IM */
